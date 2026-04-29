@@ -1,0 +1,60 @@
+# A Canvas diagram is a free-form drawing surface that allows placing any element types and creating flexible visualizations. Canvas diagrams are ideal for general-purpose modeling, brainstorming, free-form architecture sketches, or any diagram that doesn't fit into a specific structured diagram type. Canvas diagrams support all element types including notes, basic shapes, and model elements from any profile.
+type: system.canvas
+label: asd
+level: '0'
+summary: asdads
+tags: []
+# technical id uniquely identifying element instance
+uuid: 03c60708-aed5-46a0-afa9-9d9905fa0024
+# k5-metadata: Id of profile where the element type was defined
+profileId: k5-oml-system
+# k5-metadata: Version of profile where the element type was defined
+profileVersion: 1.0.0
+# k5-metadata: Version used for serializing k5 data to filestructure
+serializationVersion: 1.0.0
+creationTs: '1777466647354'
+creator: Jörg Erdmenger
+creatorId: 3ddf1ff5-a01a-4e1c-bd9d-d680c6939c1b
+lastModifiedTs: '1777466655250'
+lastModifier: Jörg Erdmenger
+lastModifierId: 3ddf1ff5-a01a-4e1c-bd9d-d680c6939c1b
+canvasContent:
+  nodes:
+    - id: 004ea792-7373-4f94-a2d4-55b5d00997f4
+      # A Canvas diagram is a free-form drawing surface that allows placing any element types and creating flexible visualizations. Canvas diagrams are ideal for general-purpose modeling, brainstorming, free-form architecture sketches, or any diagram that doesn't fit into a specific structured diagram type. Canvas diagrams support all element types including notes, basic shapes, and model elements from any profile.
+      type: shape
+      position:
+        x: 100
+        'y': 20
+      height: 175
+      width: 175
+      initialHeight: 175
+      initialWidth: 175
+      data:
+        elementId: bdcc6768-62e9-458b-9a6f-775226d1c530
+      selected: false
+      measured:
+        width: 175
+        height: 175
+  edges: []
+  nodeOrder:
+    - 004ea792-7373-4f94-a2d4-55b5d00997f4
+innerElements:
+  # A Circle represents a basic circular geometric shape. Use circles for nodes, points, or round visual elements in diagrams.
+  - type: basic-shapes.circle
+    label: Circle
+    # technical id uniquely identifying element instance
+    uuid: bdcc6768-62e9-458b-9a6f-775226d1c530
+    # k5-metadata: Id of profile where the element type was defined
+    profileId: basic-shapes-profile
+    # k5-metadata: Version of profile where the element type was defined
+    profileVersion: 1.0.0
+    # k5-metadata: Version used for serializing k5 data to filestructure
+    serializationVersion: 1.0.0
+    creationTs: '1777466649945'
+    creator: Jörg Erdmenger
+    creatorId: 3ddf1ff5-a01a-4e1c-bd9d-d680c6939c1b
+    elementType: basic-shapes.circle
+    baseType: composite-part
+    version: 1
+    title: Circle 1

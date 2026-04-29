@@ -41,3 +41,4 @@ extensions:
 projectBaseline:
   id: java-ddd-springboot
   version: 1.0.2
+description: ''

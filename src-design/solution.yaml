@@ -1,0 +1,10 @@
+schemaVersion: /v1/solution.schema.json
+creationTs: '1777466620228'
+creator: Jörg Erdmenger
+creatorId: 3ddf1ff5-a01a-4e1c-bd9d-d680c6939c1b
+documentation:
+  fileLink: /solution.md
+  schemaVersion: /v1/documentation.schema.json
+  creationTs: '1777466620228'
+  creator: Jörg Erdmenger
+  creatorId: 3ddf1ff5-a01a-4e1c-bd9d-d680c6939c1b
