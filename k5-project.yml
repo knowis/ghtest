@@ -1,0 +1,43 @@
+schemaVersion: /v1/projectConfiguration.schema.json
+acronym: GHTEST
+displayName: GH Test
+icon: Home
+tags:
+  - Domain Service Java
+creationTs: '1777466617873'
+creator: Jörg Erdmenger
+creatorId: 3ddf1ff5-a01a-4e1c-bd9d-d680c6939c1b
+profiles:
+  - id: basic-shapes-profile
+    version: 1.0.0
+    enabled: true
+  - id: c4-profile
+    version: 1.0.0
+    enabled: true
+  - id: ddd-profile
+    version: 1.0.0
+    enabled: true
+  - id: implementation-profile
+    version: 1.0.0
+    enabled: true
+  - id: basic-collaboration-profile
+    version: 1.0.0
+    enabled: true
+projectType: implementation
+extensions:
+  aggregatePersistenceSupport:
+    databaseType: Mongo
+    enabled: false
+  apiModelling:
+    enabled: false
+  businessEventSupport:
+    enabled: false
+  domainModelling:
+    enabled: false
+  integrationModelling:
+    enabled: false
+  sagaPatternSupport:
+    enabled: false
+projectBaseline:
+  id: java-ddd-springboot
+  version: 1.0.2
